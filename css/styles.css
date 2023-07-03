@@ -70,7 +70,51 @@ nav ul li a.active {
 
 
 .promos{
-color: #fff;
+color: rgb(255, 0, 0);
 text-align: center;
 
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.gallery-item {
+  width: calc(33.33% - 20px);
+  margin: 10px;
+}
+
+.gallery-item img {
+  width: 100%;
+  height: auto;
+  border-radius: 20px;
+  border: 5px solid;
+  border-color: rgba(118, 118, 118, 0.667);
+  transition: transform 0.3s ease;
+}
+
+.gallery-item:hover img {
+  transform: scale(1.1);
+}
+
+.text-t-shirt {
+  color: rgb(0, 0, 0);
+  background-color: rgb(145, 255, 0);
+  border-radius: 5px;
+  padding: 5px;
+  text-align: justify;
+  font-weight: bold;
+}
+
+.slogan {
+  text-align: center;
+  padding: 20px; 
+  font-size: 24px;
+  font-weight: bold; 
+  color: rgb(145, 255, 0);
 }
